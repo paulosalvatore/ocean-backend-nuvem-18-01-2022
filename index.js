@@ -12,7 +12,7 @@ const dbName = process.env.DB_NAME;
 
 const url = `mongodb+srv://${dbUser}:${dbPassword}@${dbHost}`;
 
-const dbName = "ocean_bancodados_18_01_2022";
+//const dbName = "ocean_bancodados_18_01_2022";
 
 async function main() {
     // Conexão com o Banco de Dados
