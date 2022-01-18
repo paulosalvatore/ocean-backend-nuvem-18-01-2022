@@ -87,7 +87,7 @@ async function main() {
         res.send("Item removido com sucesso.");
     });
 
-    app.listem(processs.env.PORT || 3000);
+    app.listen(processs.env.PORT || 3000);
 }
 
 main();
