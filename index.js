@@ -20,8 +20,6 @@ async function main() {
     const collection = db.collection("herois");
 
     // Aplicação em Express
-    
-    const colletion = undefined;
 
     const app = express();
 
