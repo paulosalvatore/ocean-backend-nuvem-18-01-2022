@@ -11,11 +11,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^14.2.0",
     "express": "^4.17.2",
     "mongodb": "^4.3.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.15",
-    "dotenv": "^14.2.0"
+    "nodemon": "^2.0.15"
   }
 }
