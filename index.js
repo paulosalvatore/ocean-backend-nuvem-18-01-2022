@@ -17,7 +17,7 @@ async function main() {
 
     // Aplicação em Express */
     
-    const colletion = underfined;
+    const colletion = undefined;
 
     const app = express();
 
