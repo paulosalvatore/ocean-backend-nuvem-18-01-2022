@@ -8,12 +8,14 @@ const dbName = "ocean_bancodados_18_01_2022";
 
 async function main() {
     // Conexão com o Banco de Dados
-
+/*
     const client = await MongoClient.connect(url);
 
     const db = client.db(dbName);
 
     const collection = db.collection("herois");
+*/
+    const collection = undefined;
 
     // Aplicação em Express
 
@@ -86,7 +88,7 @@ async function main() {
         res.send("Item removido com sucesso.");
     });
 
-    app.listen(3000);
+    app.listen(process.env.PORT || 3000);
 }
 
 main();
